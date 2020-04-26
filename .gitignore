@@ -134,9 +134,10 @@ dmypy.json
 # other
 .idea
 /data/chronograf_storage/chronograf-v1.db
-/data/chronograf_storage/backup/
-/data/grafana_storage/plugins/
-/data/grafana_storage/png/
-/data/influxdb_storage/data/
-/data/influxdb_storage/meta/
-/data/influxdb_storage/wal/
+/data/chronograf_storage/backup/*
+/data/grafana_storage/plugins/*
+/data/grafana_storage/png/*
+/data/grafana_storage/grafana.db
+/data/influxdb_storage/data/*
+/data/influxdb_storage/meta/*
+/data/influxdb_storage/wal/*
